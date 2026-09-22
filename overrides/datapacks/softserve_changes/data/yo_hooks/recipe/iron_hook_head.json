@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "#c:ingots/iron",
+    "R": "minecraft:resin_clump"
+  },
+  "pattern": [
+    "AA",
+    "AR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yo_hooks:iron_hook_head"
+  }
+}
