@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "tools",
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "key": {
+    "W": "minecraft:string",
+    "S": "trailiertales:cracked_andesite_bricks",
+    "C": "explorerscompass:explorerscompass"
+  },
+  "result": {
+    "id": "explorerscompass:explorerscompass"
+  }
+}
