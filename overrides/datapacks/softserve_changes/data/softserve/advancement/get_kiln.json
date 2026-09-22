@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_kiln": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "nekomasfixed:kiln"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_kiln"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Get a kiln",
+        "description": "It cooks things like glass and stone faster!",
+        "icon":
+        {
+            "id": "nekomasfixed:kiln"
+        },
+        "frame": "task"
+    },
+    "rewards": 
+    {
+        "experience": 100
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_anvil": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "fixedminecraft:netherite_anvil"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_anvil"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Expert Blacksmith",
+        "description": "Create the best blacksmithing tool in existence",
+        "icon":
+        {
+            "id": "fixedminecraft:netherite_anvil"
+        },
+        "frame": "challenge"
+    },
+    "rewards": 
+    {
+        "experience": 1000
+    }
+}

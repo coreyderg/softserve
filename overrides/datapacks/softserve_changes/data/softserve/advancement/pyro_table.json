@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_ptable": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "nekomasfixed:pyrotechnics_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_ptable"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Pyrotechnics Table",
+        "description": "A better way to make fireworks",
+        "icon":
+        {
+            "id": "nekomasfixed:pyrotechnics_table"
+        },
+        "frame": "task"
+    },
+    "rewards": 
+    {
+        "experience": 100
+    }
+}

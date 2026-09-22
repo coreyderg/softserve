@@ -1,0 +1,81 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_c_hook": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "yo_hooks:copper_grappling_hook"
+                    }
+                ]
+            }
+        },
+        "get_i_hook": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "yo_hooks:iron_grappling_hook"
+                    }
+                ]
+            }
+        },
+        "get_g_hook": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "yo_hooks:gold_grappling_hook"
+                    }
+                ]
+            }
+        },
+        "get_d_hook": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "yo_hooks:diamond_grappling_hook"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_c_hook",
+            "get_i_hook",
+            "get_g_hook",
+            "get_d_hook"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Get over here!",
+        "description": "Craft a grappling hook",
+        "icon":
+        {
+            "id": "yo_hooks:iron_grappling_hook"
+        },
+        "frame": "goal"
+    },
+    "rewards": 
+    {
+        "experience": 300
+    }
+}

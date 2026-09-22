@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_sling": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "nekomasfixed:slingshot"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_sling"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Wrist Rocket",
+        "description": "Craft a slingshot",
+        "icon":
+        {
+            "id": "nekomasfixed:slingshot"
+        },
+        "frame": "task"
+    },
+    "rewards": 
+    {
+        "experience": 100
+    }
+}

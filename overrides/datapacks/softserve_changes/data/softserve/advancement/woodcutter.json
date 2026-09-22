@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria":
+    {
+        "get_woodcutter":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions":
+            {
+                "items":
+                [
+                    {
+                        "items": "nemos_woodcutter:woodcutter"
+                    }
+                ]
+            }
+        } 
+    },
+    "requirements":
+    [
+        [
+            "get_woodcutter"
+        ]
+    ],
+    "display":
+    {
+        "title": "Not a Sawmill",
+        "description": "Make a woodcutter",
+        "icon":
+        {
+            "id": "nemos_woodcutter:woodcutter"
+        },
+        "frame": "task"
+    },
+    "rewards":
+    {
+        "experience": 100
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_pipes": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "simple_copper_pipes:copper_pipe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_pipes"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Pipe dream",
+        "description": "A tubular logistics innovation",
+        "icon":
+        {
+            "id": "simple_copper_pipes:copper_pipe"
+        },
+        "frame": "task"
+    },
+    "rewards": 
+    {
+        "experience": 100
+    }
+}

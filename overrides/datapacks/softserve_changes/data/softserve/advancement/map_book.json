@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_mbook": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "fixedminecraft:map_book"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_mbook"
+        ]
+    ],
+    "display": 
+    {
+        "title": "A Cartographer's Best Friend",
+        "description": "Craft a map book with a book and an empty map",
+        "icon":
+        {
+            "id": "fixedminecraft:map_book"
+        },
+        "frame": "task"
+    },
+    "rewards": 
+    {
+        "experience": 100
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "softserve:softserve",
+    "criteria": 
+    {
+        "get_expl_compass": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "explorerscompass:explorerscompass"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_expl_compass"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Explorer's Compass",
+        "description": "Craft an Explorer's Compass",
+        "icon":
+        {
+            "id": "explorerscompass:explorerscompass"
+        },
+        "frame": "goal"
+    },
+    "rewards": 
+    {
+        "experience": 200
+    }
+}
