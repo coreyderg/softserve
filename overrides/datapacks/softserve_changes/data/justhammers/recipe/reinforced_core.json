@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "n": "minecraft:netherite_ingot",
+    "r": "minecraft:redstone",
+    "d": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "nrn",
+    "rdr",
+    "nrn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "justhammers:reinforced_core"
+  }
+}
