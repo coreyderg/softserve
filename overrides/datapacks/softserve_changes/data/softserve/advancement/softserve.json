@@ -1,0 +1,37 @@
+{
+    "criteria": 
+    {
+        "get_book": 
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "items": "minecraft:written_book"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "get_book"
+        ]
+    ],
+    "display": 
+    {
+        "title": "Softserve",
+        "description": "Heart and soul of the modpack",
+        "icon": 
+        {
+            "id": "minecraft:snow_block"
+        },
+        "background": "block/deepslate",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "task"
+    }
+}
