@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:reinforced_deepslate"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:diamond_pickaxe",
+              "justhammers:diamond_hammer",
+              "justhammers:diamond_impact_hammer",
+              "justhammers:diamond_reinforced_hammer",
+              "justhammers:diamond_reinforced_impact_hammer",
+              "justhammers:diamond_destructor_hammer",
+              "minecraft:netherite_pickaxe",
+              "justhammers:netherite_hammer",
+              "justhammers:netherite_impact_hammer",
+              "justhammers:netherite_reinforced_hammer",
+              "justhammers:netherite_reinforced_impact_hammer",
+              "justhammers:netherite_destructor_hammer"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
