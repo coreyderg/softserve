@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "show_notification": true,
+    "pattern": [
+        " e ",
+        "wps",
+        " b "
+    ],
+    "key": {
+        "e": "trailiertales:ectoplasm",
+        "w": "minecraft:wind_charge",
+        "p": "minecraft:ender_pearl",
+        "s": "minecraft:echo_shard",
+        "b": "minecraft:blaze_powder"
+    },
+    "result": {
+        "id": "minecraft:ender_eye",
+        "count": 4
+    }
+}
