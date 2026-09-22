@@ -19,6 +19,9 @@ There's a variety of reasons:
     Raw FPS gains are significantly higher on Vulkan vs Sodium
 
 I also personally prefer it as I have an AMD GPU, which runs Vulkan much better.
+
+
+
 This still feels like a "Kitchen Sink" modpack.
 
 This modpack is still in active development, and I am all ears on any feedback provided.
