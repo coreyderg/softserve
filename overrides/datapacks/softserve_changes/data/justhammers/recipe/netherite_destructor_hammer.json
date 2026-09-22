@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "justhammers:diamond_destructor_hammer",
+  "addition": "minecraft:netherite_block",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "justhammers:netherite_destructor_hammer"
+  }
+}

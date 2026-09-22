@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "r": "minecraft:redstone",
+    "b": "bronze:bronze_block",
+    "t": "bronze:tin_ingot"
+  },
+  "pattern": [
+    "trt",
+    "rbr",
+    "trt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "justhammers:impact_core"
+  }
+}
