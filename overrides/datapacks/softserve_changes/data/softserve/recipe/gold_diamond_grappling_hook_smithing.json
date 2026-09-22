@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "yo_hooks:gold_grappling_hook",
+  "addition": "minecraft:diamond",
+  "template": "betterenchanting:diamond_upgrade_smithing_template",
+  "result": {
+    "id": "yo_hooks:diamond_grappling_hook"
+  }
+}
