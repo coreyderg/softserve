@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "show_notification": true,
+    "group": "black_dye",
+    "category": "misc",
+    "pattern": [
+        "c",
+        "w"
+    ],
+    "key": {
+        "c": "minecraft:charcoal",
+        "w": "#minecraft:wooden_pressure_plates"
+    },
+    "result": {
+        "id": "minecraft:black_dye",
+        "count": 1
+    }
+}
