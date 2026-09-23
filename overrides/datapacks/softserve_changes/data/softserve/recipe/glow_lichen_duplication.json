@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "show_notification": true,
+    "category": "building",
+    "ingredients": [
+        "minecraft:bone_meal",
+        "minecraft:glow_lichen"
+    ],
+    "result": {
+        "id": "minecraft:glow_lichen",
+        "count": 2
+    }
+}

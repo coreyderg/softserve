@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "bronze:bronze_hoe",
+  "addition": "minecraft:diamond",
+  "template": "betterenchanting:diamond_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:diamond_hoe"
+  }
+}

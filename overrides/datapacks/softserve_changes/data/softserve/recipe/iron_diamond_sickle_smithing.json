@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "nekomasfixed:iron_sickle",
+  "addition": "minecraft:diamond",
+  "template": "betterenchanting:diamond_upgrade_smithing_template",
+  "result": {
+    "id": "nekomasfixed:diamond_sickle"
+  }
+}

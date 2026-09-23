@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:painting",
+  "addition": "minecraft:ice",
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:painting/variant": "minecraft:water"
+    },
+    "count": 1
+  }
+}

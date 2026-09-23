@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:painting",
+  "addition": "minecraft:blaze_powder",
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:painting/variant": "minecraft:fire"
+    },
+    "count": 1
+  }
+}

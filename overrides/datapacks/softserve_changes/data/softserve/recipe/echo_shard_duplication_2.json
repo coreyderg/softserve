@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:echo_shard",
+  "addition": "minecraft:sculk_catalyst",
+  "template": "minecraft:silence_armor_trim_smithing_template",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 4
+  }
+}
