@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "yo_hooks:copper_grappling_hook",
+  "addition": "minecraft:iron_ingot",
+  "template": "betterenchanting:iron_upgrade_smithing_template",
+  "result": {
+    "id": "yo_hooks:iron_grappling_hook"
+  }
+}

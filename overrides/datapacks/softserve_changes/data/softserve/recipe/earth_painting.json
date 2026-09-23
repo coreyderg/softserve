@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:painting",
+  "addition": "minecraft:dirt",
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:painting/variant": "minecraft:earth"
+    },
+    "count": 1
+  }
+}

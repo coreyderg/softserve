@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "bdb",
+    "dnd",
+    "bdb"
+  ],
+  "key": {
+    "b": "minecraft:bone",
+    "d": "minecraft:deepslate",
+    "n": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:reinforced_deepslate",
+    "count": 4
+  }
+}

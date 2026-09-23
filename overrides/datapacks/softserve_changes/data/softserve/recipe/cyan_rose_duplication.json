@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "show_notification": true,
+    "category": "building",
+    "ingredients": [
+        "minecraft:bone_meal",
+        "trailiertales:cyan_rose"
+    ],
+    "result": {
+        "id": "trailiertales:cyan_rose",
+        "count": 2
+    }
+}

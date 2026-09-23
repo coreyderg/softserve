@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "show_notification": true,
+    "category": "building",
+    "ingredients": [
+        "minecraft:bone_meal",
+        "trailiertales:guzmania"
+    ],
+    "result": {
+        "id": "trailiertales:guzmania",
+        "count": 2
+    }
+}

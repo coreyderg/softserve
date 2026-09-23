@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "show_notification": true,
+    "category": "building",
+    "ingredients": [
+        "minecraft:bone_meal",
+        "minecraft:tall_dry_grass"
+    ],
+    "result": {
+        "id": "minecraft:tall_dry_grass",
+        "count": 3
+    }
+}

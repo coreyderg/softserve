@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "minecraft:bamboo_block",
+  "result": {
+    "id": "minecraft:charcoal"
+  },
+  "cookingtime": 600
+}

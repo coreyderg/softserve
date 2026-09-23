@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "show_notification": true,
+    "category": "blocks",
+    "ingredient": "bronze:raw_tin_block",
+    "result": {
+        "id": "bronze:tin_block"
+    },
+    "experience": 6.3,
+    "cookingtime": 900
+}

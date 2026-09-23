@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:painting",
+  "addition": "minecraft:wind_charge",
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:painting/variant": "minecraft:wind"
+    },
+    "count": 1
+  }
+}

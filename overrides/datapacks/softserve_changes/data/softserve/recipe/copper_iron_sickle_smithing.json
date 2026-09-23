@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "nekomasfixed:copper_sickle",
+  "addition": "minecraft:iron_ingot",
+  "template": "betterenchanting:iron_upgrade_smithing_template",
+  "result": {
+    "id": "nekomasfixed:iron_sickle"
+  }
+}

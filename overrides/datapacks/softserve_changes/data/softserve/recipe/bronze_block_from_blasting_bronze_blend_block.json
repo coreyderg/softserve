@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "show_notification": true,
+    "category": "blocks",
+    "ingredient": "bronze:bronze_blend_block",
+    "result": {
+        "id": "bronze:bronze_block"
+    },
+    "experience": 25.2,
+    "cookingtime": 900
+}
