@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "show_notification": true,
+    "category": "blocks",
+    "ingredient": "minecraft:gravel",
+    "result": {
+        "id": "minecraft:flint"
+    },
+    "experience": 0.1,
+    "cookingtime": 320
+}
